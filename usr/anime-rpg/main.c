@@ -34,11 +34,11 @@ int main() {
     printf("= FICHA DO PERSONAGEM DE RPG E ANIME                       =\n");
     printf("============================================================\n");
     printf(" o nome :  %s                                             \n", name);
-    printf(" HP : %d                                                  \n", hp);
-    printf(" LEVEL : %d                                               \n", nivel);
-    printf("  ALTURA : %f                                             \n", altura);
-    printf(" OURO : %f                                                \n", ouro);
-    printf("  STATUZ : %s                                             \n", estatuz);
+    printf("     HP : %d                                                  \n", hp);
+    printf("  LEVEL : %d                                               \n", nivel);
+    printf(" ALTURA : %.3f                                             \n", altura);
+    printf("   OURO : %.3f                                                \n", ouro);
+    printf(" STATUZ : %s                                             \n", estatuz);
     printf("============================================================\n");
 
 return 0;
